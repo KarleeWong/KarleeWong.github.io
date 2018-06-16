@@ -6,8 +6,8 @@ body  {
     background-color: black;
 }
 nav {
-    background-color: #ff8985;  
-    color: white;
+    background-color: gray;  
+    color: green;
     padding: 0 10px 0;
 }
     nav ul {
