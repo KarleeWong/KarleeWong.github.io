@@ -2,20 +2,12 @@
     font-family: Helvetica, Verdana, Tahoma;
 }
 
-header {
-    text-color: white;
-}
-
-p {
-    color: white;
-}
-
 body  {
-    background-color: black;
+    background-color: gray;
 }
 nav {
-    background-color: gray;  
-    color: green;
+    background-color: black;  
+    color: white;
     padding: 0 10px 0;
 }
     nav ul {
