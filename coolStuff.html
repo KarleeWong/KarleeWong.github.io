@@ -12,12 +12,12 @@
 
             //This function will show a message, summarizing the information
             $("#ThatsMeButton").on("click", function () {
-                var s = "I am ";
+                var s = "Hello there, ";
                 s = s + $("#NickName").val() + ". ";
-                s = s  + "I'm lucky with the number " + $("#LuckyNumber").val() + ". ";
-                s =  s + "My favorite color is " + $("#FavColor").val() + ". ";
-                s = s + "Feed me " + $('input[name=Snack]:checked').val() + "! ";
-                s = s + "Here's what I think is cool: " + $("#Quote").val();
+                s = s  + "I hear you are luck with the number " + $("#LuckyNumber").val() + ". ";
+                s =  s + "You said your favorite color is " + $("#FavColor").val() + ". ";
+                s = s + "Here is your virtual" + $('input[name=Snack]:checked').val() + "! ";
+                s = s + "And don't forget:" + $("#Quote").val();
 
                 alert(s);  //An 'alert' creates the message
             });
