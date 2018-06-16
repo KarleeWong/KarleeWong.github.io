@@ -2,6 +2,14 @@
     font-family: Helvetica, Verdana, Tahoma;
 }
 
+header {
+    text-color: white;
+}
+
+p {
+    color: white;
+}
+
 body  {
     background-color: black;
 }
